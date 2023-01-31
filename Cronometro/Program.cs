@@ -37,7 +37,10 @@ static void Start(int time)
 	while (time >= 0)
 	{
 		Console.Clear();
-		Console.WriteLine(time);
+        Console.WriteLine("--------------");
+        Console.WriteLine("| CRONÔMETRO |");
+		Console.WriteLine("--------------");
+        Console.WriteLine($"===> {time} <===");
 		Thread.Sleep(1000);
 		time--;
 	}
