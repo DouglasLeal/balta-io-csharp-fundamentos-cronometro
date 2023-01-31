@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Start();
+
+static void Start()
+{
+    int time = 10;
+
+	while (time >= 0)
+	{
+		Console.WriteLine(time);
+
+		time--;
+	}
+}
