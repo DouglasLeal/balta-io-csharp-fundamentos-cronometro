@@ -6,8 +6,9 @@ static void Start()
 
 	while (time >= 0)
 	{
+		Console.Clear();
 		Console.WriteLine(time);
-
+		Thread.Sleep(1000);
 		time--;
 	}
 }
